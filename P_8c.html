@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>MedSwift Pharmacy</title>
+    <link rel="icon" href="Images/world.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Css stylesheet link -->
+    <link rel="stylesheet" href="P_8.css">
+
+    <!-- Font-Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+    <!-- Navbar -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/world.png" alt="logo" class="img-fluid" style="height: 34px;"> MedSwift Pharmacy
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered navbar-toggler"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active boxx" aria-current="page" href="P_8.html#home">Home</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="nav-link boxx" href="P_8a.html#tips">Tips</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="nav-link boxx" href="#register">Book Appointment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Book Appointment -->
+    <section id="register" class="register">
+        <div class="container-fluid py-5 mx-auto">
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                    <h3>
+                        " Hello, Your Path to Wellness Begins Here! Schedule your appointment today. "
+                    </h3>
+                    <p class="blue-text">Use the following form to contact us and request an appointment..</p>
+                    <div class="card">
+
+                        <form class="form-card">
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">First name<span class="text-danger"> *</span>
+                                    </label>
+                                    <input required type="text" id="fname" name="fname"
+                                        placeholder="Enter your first name" onblur="validate(1)">
+                                </div>
+
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Last name<span class="text-danger">
+                                            *</span></label>
+                                    <input required type="text" id="lname" name="lname"
+                                        placeholder="Enter your last name" onblur="validate(2)">
+                                </div>
+
+                            </div>
+
+                            <div class="row justify-content-between text-left">
+
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Email<span class="text-danger"> *</span>
+                                    </label>
+                                    <input type="text" id="email" name="email" placeholder="" onblur="validate(3)">
+                                </div>
+
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Phone number<span class="text-danger">
+                                            *</span></label>
+                                    <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)">
+                                </div>
+
+                            </div>
+
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-12 flex-column d-flex">
+                                    <label class="form-control-label px-3">Your request<span class="text-danger">
+                                            *</span></label>
+                                    <textarea type="text" id="ans" name="ans" placeholder=""
+                                        onblur="validate(6)"></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="form-group col-sm-6"> <button type="submit"
+                                        class="btn-block btn-primary">Send <i
+                                            class="fa-regular fa-paper-plane fa-beat"></i></button> </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thanks2 -->
+    <section id="thanks2" class="thanks2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 thanks2-box">
+                    <p>Your well-being is at the heart of our mission, and we're deeply grateful for the trust you place
+                        in us. We understand that scheduling an appointment is not just a routine task; it's a step
+                        toward better health and peace of mind. We want to assure you that your health and comfort are
+                        our top priorities.</p>
+
+                    <p> Our dedicated team of healthcare professionals is committed to providing you with the highest
+                        level of care. We take your concerns seriously, and we are here to listen, answer your
+                        questions, and address your needs with compassion and expertise.</p>
+
+                    <p> As you make your appointment, please know that we are here to support you every step of the way.
+                        Whether you're visiting us for a routine check-up, seeking a second opinion, or facing a health
+                        challenge, we are with you on this journey.</p>
+
+                    <p> Your trust in us is our greatest honor, and we are determined to uphold it by delivering the
+                        best care possible. Your health is our shared responsibility, and we are dedicated to helping
+                        you achieve your wellness goals. </p>
+
+                    <p> Thank you for choosing us. We look forward to meeting you, and
+                        together, we'll strive for a healthier, brighter future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Js-librabry links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <!--  JQuery  -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Attached JavaScript link -->
+    <script>
+        function validate(val) {
+            v1 = document.getElementById("fname");
+            v2 = document.getElementById("lname");
+            v3 = document.getElementById("email");
+            v4 = document.getElementById("mob");
+            v5 = document.getElementById("job");
+            v6 = document.getElementById("ans");
+
+            flag1 = true;
+            flag2 = true;
+            flag3 = true;
+            flag4 = true;
+            flag5 = true;
+            flag6 = true;
+
+            if (val >= 1 || val == 0) {
+                if (v1.value == "") {
+                    v1.style.borderColor = "red";
+                    flag1 = false;
+                }
+                else {
+                    v1.style.borderColor = "green";
+                    flag1 = true;
+                }
+            }
+
+            if (val >= 2 || val == 0) {
+                if (v2.value == "") {
+                    v2.style.borderColor = "red";
+                    flag2 = false;
+                }
+                else {
+                    v2.style.borderColor = "green";
+                    flag2 = true;
+                }
+            }
+            if (val >= 3 || val == 0) {
+                if (v3.value == "") {
+                    v3.style.borderColor = "red";
+                    flag3 = false;
+                }
+                else {
+                    v3.style.borderColor = "green";
+                    flag3 = true;
+                }
+            }
+            if (val >= 4 || val == 0) {
+                if (v4.value == "") {
+                    v4.style.borderColor = "red";
+                    flag4 = false;
+                }
+                else {
+                    v4.style.borderColor = "green";
+                    flag4 = true;
+                }
+            }
+            if (val >= 5 || val == 0) {
+                if (v5.value == "") {
+                    v5.style.borderColor = "red";
+                    flag5 = false;
+                }
+                else {
+                    v5.style.borderColor = "green";
+                    flag5 = true;
+                }
+            }
+            if (val >= 6 || val == 0) {
+                if (v6.value == "") {
+                    v6.style.borderColor = "red";
+                    flag6 = false;
+                }
+                else {
+                    v6.style.borderColor = "green";
+                    flag6 = true;
+                }
+            }
+
+            flag = flag1 && flag2 && flag3 && flag4 && flag5 && flag6;
+
+            return flag;
+        }
+    </script>
+
+</body>
+
+</html>
